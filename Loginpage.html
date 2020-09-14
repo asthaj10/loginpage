@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Story Books</title>
+<link rel="stylesheet" href="style.css">
+<script src="javascript.js"></script>
+</head>
+<body>
+<h2>Login for super cool stories!</h2>
+
+<div id="forms" class="modal">
+  
+  <form class="modal-content" action="" method="post"> <!--action: takes the form data to .php or backend (specifies wjere tos end the data), method post sends data as an http post transaction-->
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" onclick="document.getElementById('isitright')">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="myFunction()" class="cancelbtn">Cancel</button>
+      <div>
+      <span class="psw"><a class="psw" href="#">Forgot password?</a></span> 
+  </div>
+    </div>
+     <button><a href="signuppage.html">Don't have an account? Sign-Up HERE</a></button>
+  </form>
+</div>
+</head>

@@ -1,0 +1,14 @@
+.container-fluid{
+	opacity: 0.9;
+	max-height: 400px;
+	text-overflow: hidden
+}
+h2{
+	color: white;
+}
+p{
+	color: #e0ccff
+}
+body{
+	background-color:#cccccc;
+}
